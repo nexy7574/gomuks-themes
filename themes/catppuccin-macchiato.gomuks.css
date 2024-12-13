@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+        --background-color: #24273a;
+        --text-color: #cad3f5;
+        --secondary-text-color: #a5adcb;
+
+        --primary-color: #b7bdf8;
+        --error-color: #ed8796;
+
+        --timeline-hover-bg-color: #1e2030;
+        --room-list-background: #1e2030;
+        --room-list-entity-hover-color: #494d64;
+        --composer-background-color: #181926;
+
+        --sender-color-0: #c6a0f6;
+        --sender-color-1: #ee99a0;
+        --sender-color-2: #f5a97f;
+        --sender-color-3: #a6da95;
+        --sender-color-4: #8bd5ca;
+        --sender-color-5: #91d7e3;
+        --sender-color-6: #7dc4e4;
+        --sender-color-7: #b7bdf8;
+        --sender-color-8: #8aadf4;
+        --sender-color-9: #c6a0f6;
+    }
+}
