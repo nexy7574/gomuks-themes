@@ -11,9 +11,10 @@ A short description of the theme.
 * Source: [theme-name.gomuks.css](themes/theme-name.gomuks.css)
 * Authors: *your github name*
 
-```css
-@import url('https://raw.githubusercontent.com/nexy7574/gomuks-themes/dev/themes/<theme-name.gomuks.css>');
-```
+### Preview
+
+[![Preview](previews/theme-name.png)](previews/theme-name.png)
+
 -->
 
 ## Catppuccin Macchiato
@@ -28,6 +29,6 @@ From catppuccin/catppuccin:
 * Source: [catppuccin-macchiato.gomuks.css](themes/catppuccin-macchiato.gomuks.css)
 * Authors: @nexy7574
 
-```css
-@import url('https://raw.githubusercontent.com/nexy7574/gomuks-themes/dev/themes/catppuccin-macchiato.gomuks.css');
-```
+### Preview
+
+[![Preview](screenshots/nexy7574-0.4.0-catppuccin-macchiato.jpg)](screenshots/nexy7574-0.4.0-catppuccin-macchiato.jpg)

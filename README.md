@@ -5,7 +5,7 @@ Feel free to open a PR to add your own theme!
 
 ## How to use
 
-Find the theme you would like to use in [themes.md](themes.md) and either use the `@import` url, or copy and paste the content.
+Find the theme you would like to use in [themes.md](themes.md) and copy and paste the content of the source file into either your Account or Device custom CSS
 
 ## License
 
