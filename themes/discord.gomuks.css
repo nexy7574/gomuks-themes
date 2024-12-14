@@ -1,0 +1,114 @@
+/* 
+ * Theme made by: @nexy7574 (@nex:nexy7574.co.uk)
+ */
+
+:root {
+  --discord-mentioned-overlay: rgba(240, 178, 50, 0.1); /* The yellow overlay on a message when you've been pinged */
+  --discord-jump-overlay: rgba(148, 156, 247, 0.1);  /* In discord, this will have that purple overlay on a message when you jump to it.
+                                                          it will also phase from 0.1 to 0 alpha, and then be removed, however that can't be
+                                                          done with gomuks in pure CSS as it requires removing a class after adding it. */
+  --discord-mention-pill-hover-background: rgb(114, 137, 218);
+  --discord-mention-pill-background: rgba(88, 101, 242, 0.3);
+
+  /* Colours from https://discord.com/branding - 2024-12-14 */
+  --discord-blurple: #5865F2;
+  --discord-green: #57F287;
+  --discord-yellow: #FEE75C;
+  --discord-fuchsia: #EB459E;
+  --discord-red: #ED4245;
+  --discord-white: #fff;
+  --discord-black: #000;
+
+  /* And role colour presets */
+  --discord-role-teal: #19BB9C;
+  --discord-role-dark-teal: #107F69;
+  --discord-role-green: #2ECB70;
+  --discord-role-dark-green: #1E8B4C;
+  --discord-role-blue: #3498DB;
+  --discord-role-dark-blue: #1F6594;
+  --discord-role-purple: #9B58B5;
+  --discord-role-dark-purple: #70368A;
+  --discord-role-pink: #E91D62;
+  --discord-role-dark-pink: #AC1356;
+  --discord-role-yellow: #F1C30E;
+  --discord-role-dark-yellow: #C17B0D;
+  --discord-role-yellow-orange: #E74C3C;
+  --discord-role-dark-yellow-orange: #A84300;
+  --discord-role-orange: #E74C3C;
+  --discord-role-dark-orange: #992D21;
+  --discord-role-light-grey: #95A5A6;
+  --discord-role-dark-grey: #979C9F;
+  --discord-role-blue-grey: #5F7C8B;
+  --discord-role-dark-blue-grey: #546D79;
+
+  /* These variables are the same across themes */
+  --timeline-jump-bg-color: var(--discord-jump-overlay);
+  --timeline-jump-hover-bg-color: var(--discord-jump-overlay);
+  --timeline-highlight-bg-color: var(--discord-mentioned-overlay);
+  --timeline-highlight-hover-bg-color: var(--discord-mentioned-overlay);
+  --highlight-pill-background-color: var(--discord-mention-pill-background);
+}
+
+/* From discord's light theme as of 2024-12-14 */
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    --text-color: #313338;
+    --background-color: #FFFFFF;
+    --timeline-hover-bg-color: #F7F7F7;
+    --room-list-background: #F2F3F5;
+    --room-list-background-overlay: rgba(0,0,0,0);
+    --custom-event-content-background: #cecece;
+    --composer-background-color: #EBEDEF;
+    --right-panel-background-color: #F2F3F5;
+    --blockquote-border-color: #C3C8CD;
+  }
+}
+
+/* From discord's dark theme as of 2024-12-14 */
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #daddda;
+
+    --background-color: #313338;
+    --timeline-hover-bg-color: #2E3035;
+    --room-list-background: #2A2D31;
+    --room-list-background-overlay: rgba(0,0,0,0);
+    --custom-event-content-background: #434343;
+    --composer-background-color: #383A40;
+    --right-panel-background-color: #222327;
+    --blockquote-border-color: #4E5057;
+  }
+
+  .right-panel-content {
+    background-color: var(--right-panel-background-color);
+  }
+}
+
+.room-list .room-entry {
+  margin: .5em 0
+}
+
+.timeline.event {
+  padding: 1em;
+  background: var(--timeline-hover-bg-color);
+}
+
+div.room-entry {
+  padding: .25rem 0;
+  contain-intrinsic-height: 3.5rem;
+}
+
+div.message-composer {
+  box-shadow: none;
+  border: none
+}
+
+.html-body blockquote {
+  border-left: 4px solid var(--blockquote-border-color) !important;
+}
+
+div.html-body a.hicli-matrix-uri-user:hover {
+  background-color: var(--discord-mention-pill-hover-background) !important;
+}
+
+
