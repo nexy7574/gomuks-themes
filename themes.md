@@ -11,6 +11,7 @@ A short description of the theme.
 * Works well with: *any themes your theme is known to work well with, omit if none*
 * Explicitly incompatible with: *any themes your theme is known to be incompatible with*, omit if none
 * Source: [theme-name.gomuks.css](themes/theme-name.gomuks.css)
+* Import: `@import url("https://nexy7574.github.io/gomuks-themes/themes/theme-name.gomuks.css");`
 * Authors: *your github name*
 
 ### Preview
@@ -28,7 +29,8 @@ This theme is available in both light and dark variants, and will select the cor
 on your browser's advertised preference.
 
 * Tags: discord, light, dark
-* Source: [theme-name.gomuks.css](themes/theme-name.gomuks.css)
+* Source: [discord.gomuks.css](themes/discord.gomuks.css)
+* Import: `@import url("https://nexy7574.github.io/gomuks-themes/themes/discord.gomuks.css");`
 * Authors: @nexy7574
 
 ### Previews
@@ -44,6 +46,7 @@ From catppuccin/catppuccin:
 
 * Tags: Cattpuccin, pastel, warm, dark
 * Source: [catppuccin-macchiato.gomuks.css](themes/catppuccin-macchiato.gomuks.css)
+* Import: `@import url("https://nexy7574.github.io/gomuks-themes/themes/catppuccin-macchiato.gomuks.css");`
 * Authors: @nexy7574
 
 ### Preview
