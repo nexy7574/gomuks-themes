@@ -10,7 +10,7 @@ Find the theme you would like to use in [themes.md](themes.md) and either:
 
 or
 
-* Save the CSS locally by copying & past
+* Save the CSS locally by copying & pasting it
 
 ## Contributing themes
 
