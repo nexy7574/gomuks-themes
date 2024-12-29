@@ -61,6 +61,7 @@
     --composer-background-color: #EBEDEF;
     --right-panel-background-color: #F2F3F5;
     --blockquote-border-color: #C3C8CD;
+    --space-list-background-overlay: #E3E5E8;
   }
 }
 
@@ -77,6 +78,7 @@
     --composer-background-color: #383A40;
     --right-panel-background-color: #222327;
     --blockquote-border-color: #4E5057;
+    --space-list-background-overlay: #1D1E21;
   }
 
   .right-panel-content {
